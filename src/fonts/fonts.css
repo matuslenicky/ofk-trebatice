@@ -1,0 +1,8 @@
+/* Fraunces, Instrument Sans (SIL OFL 1.1), orezané na latinku strednej Európy */
+@font-face{font-family:'Fraunces';font-style:italic;font-weight:600;font-display:swap;src:url(fraunces-600i.woff) format("woff")}
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:600;font-display:swap;src:url(fraunces-600.woff) format("woff")}
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:900;font-display:swap;src:url(fraunces-900.woff) format("woff")}
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:400;font-display:swap;src:url(instrument-sans-400.woff) format("woff")}
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:500;font-display:swap;src:url(instrument-sans-500.woff) format("woff")}
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:600;font-display:swap;src:url(instrument-sans-600.woff) format("woff")}
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:700;font-display:swap;src:url(instrument-sans-700.woff) format("woff")}

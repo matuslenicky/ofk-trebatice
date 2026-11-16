@@ -1,0 +1,87 @@
+{
+  "_zdroj": "Ručne zapísané len zo zverejnených zdrojov (uvedené pri každej časti). Nič nedopĺňať odhadom – chýbajúce údaje dodá klub.",
+  "nazov": "OFK Trebatice",
+  "pravnyNazov": "Obecný futbalový klub STAVOPRAC Trebatice",
+  "skratka": "OFK",
+  "mesto": "Trebatice",
+  "zalozenie": null,
+  "_zalozenie": "rok založenia sa v zdrojoch nenašiel; starosta v auguste 2021 hovoril o deväťdesiatročnej histórii klubu (Piešťanský denník, 26. 8. 2021)",
+  "adresa": ["Piešťanská", "922 10 Trebatice"],
+  "ico": "00688703",
+  "ucet": "SK30 0200 0000 0019 9683 3356",
+  "kontakt": {
+    "_zdroj": "Sportnet – kontakt klubu (sportnet.sme.sk/futbalnet/k/ofk-trebatice/); funkcia prezident: Piešťanský denník, 26. 8. 2021",
+    "osoba": "Ing. Jozef Svetlík",
+    "funkcia": "prezident klubu",
+    "telefon": "+421 902 816 099",
+    "email": "svetlikj@t-network.sk"
+  },
+  "facebook": null,
+  "_facebook": "klub nemá vlastný web ani overený profil na sociálnych sieťach (hľadané 16. 11. 2026)",
+  "sportnetUrl": "https://sportnet.sme.sk/futbalnet/k/ofk-trebatice/",
+  "obecUrl": "https://www.trebatice.sk/obec/spolocenske-organizacie/obecny-futbalovy-klub/",
+  "dokumenty": [],
+  "stadion": {
+    "_zdroj": "Sportnet – údaje ihriska zo zápisu o stretnutí (sportGround)",
+    "nazov": "Futbalový štadión Trebatice",
+    "sportnet": "Trebatice",
+    "adresa": ["Piešťanská", "922 10 Trebatice"],
+    "kapacita": 1000,
+    "sedenie": 120,
+    "rozmery": "104 × 74 m",
+    "geo": [48.5899367, 17.7536835]
+  },
+  "mladezIhrisko": {
+    "_zdroj": "Sportnet – miesto domácich zápasov žiakov (U15, U13) v sezóne 2026/27",
+    "nazov": "Štadión FK Krakovany"
+  },
+  "obec": {
+    "_zdroj": "Wikipédia: Trebatice; trebatice.sk – História obce",
+    "obyvatelia": "1 331",
+    "_obyvatelia": "k 31. 12. 2025",
+    "zmienka": 1113,
+    "kmOdPiestan": 5,
+    "kapustari": "V roku 1753 Trebatičanov nazývali kapustári.",
+    "erb": "zelený štít so zlatou korunou – rovnakú korunu nesie aj erb klubu"
+  },
+  "pribehy": {
+    "postup": {
+      "_zdroj": "Piešťanský denník, 23. 5. 2018 (Tomáš Horký): Trebatice postúpili do štvrtej ligy!",
+      "url": "https://www.piestanskydennik.sk/2018/05/23/trebatice-postupili-do-stvrtej-ligy/",
+      "datum": "2018-05-20",
+      "sezona": "2017/2018",
+      "zapas": { "domaci": "Moravský Svätý Ján", "hostia": "OFK Trebatice", "skore": "2:3", "kolo": "16. kolo, V. liga" },
+      "text": "Trebatice patrili dlhé roky k najlepším tímom piatej ligy a k postupu mali vždy blízko. Vyšlo to až v sezóne 2017/18: výhrou 3:2 v Moravskom Svätom Jáne si štyri kolá pred koncom zaistili nedostižný trinásťbodový náskok a postup do IV. ligy.",
+      "citat": "Konečne sa nám to podarilo! Trebatice si štvrtú ligu zaslúžia kvôli ľuďom, ktorí sa o futbal starajú.",
+      "autor": "Miroslav Kotula, vtedajší kapitán"
+    },
+    "pohar": {
+      "_zdroj": "Piešťanský denník, 26. 8. 2021 (Tomáš Horký, zdroj Futbalnet.sk): Trebatice sa postarali o prekvapenie. V Slovnaft Cupe vyradili druholigovú Petržalku",
+      "url": "https://www.piestanskydennik.sk/2021/08/26/trebatice-sa-postarali-o-prekvapenie-v-slovnaft-cupe-vyradili-druholigovu-petrzalku/",
+      "datum": "2021-08-25",
+      "zapas": { "domaci": "OFK Trebatice", "hostia": "FC Petržalka", "skore": "2:1", "kolo": "2. kolo Slovnaft Cupu" },
+      "text": "Štvrtoligové Trebatice vyradili v Slovnaft Cupe druholigovú Petržalku. Skóre otvoril Matúš Valo, víťazný gól dal nádherným priamym kopom kapitán Ľuboš Miklovič, ktorý hodinu pred zápasom ešte kopal v práci bleskozvod. V tíme hrali predavači, šoféri aj študenti, bez nároku na honorár. Zápas sledovalo dvesto platiacich divákov, so ženami a deťmi podľa klubu päťsto.",
+      "citat": "Hrali sme srdcom, behali a bojovali. Dali sme do toho 150 percent.",
+      "autor": "Ľuboš Miklovič, kapitán, po zápase",
+      "dalej": "V 3. kole prišli 22. 9. 2021 do Trebatíc prvoligové Zlaté Moravce – najväčší súťažný zápas v histórii klubu. Pred 350 divákmi vyhrali hostia 9:0.",
+      "_dalej": "zápis o stretnutí futbalsfz.sk/zapas/61252fbf49af8f75e631e1b9/; „najväčší zápas“ podľa starostu Juraja Vala (Piešťanský denník, 26. 8. 2021)"
+    }
+  },
+  "historia": [
+    { "rok": "1113", "text": "Prvá písomná zmienka o obci Trebatice (listina zoborského opátstva).", "zdroj": "trebatice.sk – História obce" },
+    { "rok": "2018", "text": "Postup do IV. ligy. Rozhodla výhra 3:2 v Moravskom Svätom Jáne v 16. kole, štyri kolá pred koncom sezóny 2017/18.", "zdroj": "Piešťanský denník, 23. 5. 2018" },
+    { "rok": "2021", "text": "V 2. kole Slovnaft Cupu Trebatice zdolali druholigovú FC Petržalka 2:1. Starosta Juraj Valo vtedy hovoril o deväťdesiatročnej histórii klubu.", "zdroj": "Piešťanský denník, 26. 8. 2021" },
+    { "rok": "2021", "text": "V 3. kole pohára hostili prvoligové FC ViOn Zlaté Moravce – Vráble (0:9, 350 divákov), prvý súťažný zápas klubu proti ligistovi.", "zdroj": "futbalsfz.sk – zápis o stretnutí; Piešťanský denník, 26. 8. 2021" },
+    { "rok": "", "text": "Mládež hrá v Centre futbalovej mládeže Jozefa Adamca, ktoré Trebatice založili spolu so susednými obcami Krakovany a Borovce. Žiaci hrajú domáce zápasy aj na štadióne v Krakovanoch.", "zdroj": "Piešťanský denník, 26. 8. 2021; Sportnet" }
+  ],
+  "sutaze": {
+    "_pozn": "čitateľné názvy súťaží namiesto názvov so sponzormi zo Sportnetu (kľúč = názov súťaže na Sportnete)",
+    "Majstrovstvá regiónu - IV. liga Macron | yoursport ZsFZ": "IV. liga",
+    "III. liga  U15  Macron | yoursport  ZsFZ": "III. liga U15 ZsFZ",
+    "III. liga U15 Macron | yoursport ZsFZ": "III. liga U15 ZsFZ",
+    "III. liga  U13 Macron | yoursport  ZsFZ": "III. liga U13 ZsFZ",
+    "III. liga U13 Macron | yoursport ZsFZ": "III. liga U13 ZsFZ",
+    "Prípravka-U11-sk.B-ObFZ TT": "Prípravka U11 ObFZ Trnava",
+    "Slovnaft Cup": "Slovnaft Cup"
+  }
+}
