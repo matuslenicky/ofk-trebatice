@@ -235,7 +235,7 @@ function ticket(m, R, { big = false, label = '', self = false } = {}) {
   return `<div class="tk-wrap"><article class="ticket${big ? ' ticket--big' : ''}">
   <div class="tk-main">
     <p class="tk-top"><span class="tk-label">${esc(lbl)}</span><span class="tk-team-n">${esc(m.teamObj.full)}</span></p>
-    <h3 class="tk-when"><time datetime="${m.date}">${dLong(m.date)}</time></h3>
+    <p class="tk-when"><time datetime="${m.date}">${dLong(m.date)}</time></p>
     <ol class="tk-teams">${row(h, 'domáci')}${row(a, 'hostia')}</ol>
     <p class="tk-meta">${meta.join('<span aria-hidden="true"> · </span>')}</p>
   </div>
