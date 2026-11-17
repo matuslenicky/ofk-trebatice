@@ -243,19 +243,27 @@ function ticket(m, R, { big = false, label = '', self = false } = {}) {
 </article></div>`;
 }
 
-// riadok zápasu v zozname (ako riadok v tlačenom zápasovom programe)
+// zoznam zápasov: program ako rozpis v tlačenom zápasovom programe (veľké číslo kola), výsledky s pečiatkou
 function matchRow(m, R, { showTeam = true } = {}) {
-  const right = m.score
-    ? `<span class="mr-score res-bg--${m.res}" title="${RES[m.res]}"><span class="sr">${RES[m.res]} </span>${esc(m.score)}</span>`
-    : m.past ? '<span class="mr-score mr-score--none">bez výsl.</span>' : `<span class="mr-time">${esc(m.time)}</span>`;
   const href = m.detail || !m.past ? ` href="${R}${m.url}"` : '';
   const tag = href ? 'a' : 'div';
-  return `<li class="mrow" data-team="${m.team}" data-where="${m.home ? 'doma' : 'vonku'}"><${tag} class="mrow-in"${href}>
-  <span class="mr-date"><time datetime="${m.date}">${dShort(m.date)}</time><span class="mr-day">${dDay(m.date)}</span></span>
-  ${logo(m.oppSpace, m.opponent, R, 30)}
-  <span class="mr-main"><span class="mr-opp">${esc(m.opponent)}</span>
-  <span class="mr-sub">${showTeam ? `<b>${esc(m.teamObj.short)}</b> · ` : ''}${m.home ? 'doma' : 'vonku'} · ${esc(m.cup ? m.comp : m.roundName || m.comp)}</span></span>
-  ${right}
+  const kolo = m.cup ? 'P' : ((/\d+/.exec(m.round) || [''])[0] || '·');
+  const us = m.teamObj.adult ? 'OFK Trebatice' : `Trebatice ${m.teamObj.short}`;
+  const [h, a] = m.home ? [us, m.opponent] : [m.opponent, us];
+  const meta = `${showTeam ? `<b>${esc(m.teamObj.short)}</b> · ` : ''}${esc(m.cup ? m.comp : m.roundName || m.comp)}`;
+  if (!m.past) {
+    return `<li class="mrow" data-team="${m.team}" data-where="${m.home ? 'doma' : 'vonku'}"><${tag} class="pg"${href}>
+  <span class="pg-k" aria-hidden="true">${esc(kolo)}</span>
+  <span class="pg-b"><span class="pg-w"><time datetime="${m.date}">${dDay(m.date)} ${dShort(m.date)}</time> · ${esc(m.time || '–')}</span><span class="pg-m">${esc(h)} – ${esc(a)}</span><span class="pg-s">${meta}</span></span>
+</${tag}></li>`;
+  }
+  const stamp = m.score
+    ? `<span class="stamp stamp--${m.res} pg-stamp"><span class="sr">${RES[m.res]}, </span>${esc(m.score)}<small aria-hidden="true">${RES[m.res]}</small></span>`
+    : '<span class="pg-none">bez výsledku</span>';
+  return `<li class="mrow" data-team="${m.team}" data-where="${m.home ? 'doma' : 'vonku'}"><${tag} class="pg pg--res"${href}>
+  <span class="pg-k" aria-hidden="true">${esc(kolo)}</span>
+  <span class="pg-b"><span class="pg-w"><time datetime="${m.date}">${dDay(m.date)} ${dShort(m.date)}</time></span><span class="pg-m">${esc(h)} – ${esc(a)}</span><span class="pg-s">${meta}</span></span>
+  ${stamp}
 </${tag}></li>`;
 }
 const matchList = (list, R, opts) => `<ol class="mlist">${list.map((m) => matchRow(m, R, opts)).join('')}</ol>`;
