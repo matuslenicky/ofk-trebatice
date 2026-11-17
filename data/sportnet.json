@@ -2,7 +2,7 @@
  "source": "Sportnet / Futbalnet",
  "appSpace": "ofk-trebatice.futbalnet.sk",
  "season": "2026/2027",
- "updated": "2026-11-16T15:57:30.072Z",
+ "updated": "2026-11-17T14:50:58.943Z",
  "teams": [
   {
    "slug": "a-muzstvo",
@@ -632,7 +632,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/1/zapas/929341",
    "half": "0:0",
    "referee": "Martin Brezina",
-   "audience": 350,
    "lineups": {
     "our": {
      "start": [
@@ -949,6 +948,7 @@
      }
     ]
    },
+   "audience": 350,
    "detail": true
   },
   {
@@ -1168,7 +1168,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962200",
    "half": "0:1",
    "referee": "Miloš Gašparovič",
-   "audience": 220,
    "lineups": {
     "our": {
      "start": [
@@ -1454,6 +1453,7 @@
      }
     ]
    },
+   "audience": 220,
    "detail": true
   },
   {
@@ -1661,7 +1661,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962203",
    "half": "1:0",
    "referee": "Martin Ježík",
-   "audience": 350,
    "lineups": {
     "our": {
      "start": [
@@ -1968,6 +1967,7 @@
      }
     ]
    },
+   "audience": 350,
    "detail": true
   },
   {
@@ -2188,7 +2188,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962217",
    "half": "1:0",
    "referee": "Jakub Hybský",
-   "audience": 320,
    "lineups": {
     "our": {
      "start": [
@@ -2474,6 +2473,7 @@
      }
     ]
    },
+   "audience": 320,
    "detail": true
   },
   {
@@ -2681,7 +2681,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962218",
    "half": "0:1",
    "referee": "Erik Barát",
-   "audience": 130,
    "lineups": {
     "our": {
      "start": [
@@ -2954,6 +2953,7 @@
      }
     ]
    },
+   "audience": 130,
    "detail": true
   },
   {
@@ -3150,7 +3150,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962233",
    "half": "1:0",
    "referee": "Ladislav Sárai",
-   "audience": 200,
    "lineups": {
     "our": {
      "start": [
@@ -3463,6 +3462,7 @@
      }
     ]
    },
+   "audience": 200,
    "detail": true
   },
   {
@@ -3689,7 +3689,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962235",
    "half": "1:0",
    "referee": "Martin Drobec",
-   "audience": 180,
    "lineups": {
     "our": {
      "start": [
@@ -3995,6 +3994,7 @@
      }
     ]
    },
+   "audience": 180,
    "detail": true
   },
   {
@@ -4173,7 +4173,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962248",
    "half": "0:0",
    "referee": "Ivan Šimonek",
-   "audience": 121,
    "lineups": {
     "our": {
      "start": [
@@ -4491,6 +4490,7 @@
      }
     ]
    },
+   "audience": 121,
    "detail": true
   },
   {
@@ -4667,7 +4667,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962252",
    "half": "0:0",
    "referee": "Eduard Šima",
-   "audience": 300,
    "lineups": {
     "our": {
      "start": [
@@ -4979,6 +4978,7 @@
      }
     ]
    },
+   "audience": 300,
    "detail": true
   },
   {
@@ -5193,7 +5193,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962263",
    "half": "1:2",
    "referee": "Martin Ježík",
-   "audience": 360,
    "lineups": {
     "our": {
      "start": [
@@ -5512,6 +5511,7 @@
      }
     ]
    },
+   "audience": 360,
    "detail": true
   },
   {
@@ -5647,7 +5647,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962269",
    "half": "1:0",
    "referee": "Martin Drobec",
-   "audience": 465,
    "lineups": {
     "our": {
      "start": [
@@ -5980,6 +5979,7 @@
      }
     ]
    },
+   "audience": 465,
    "detail": true
   },
   {
@@ -6183,7 +6183,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962278",
    "half": "0:1",
    "referee": "Martin Brezina",
-   "audience": 200,
    "lineups": {
     "our": {
      "start": [
@@ -6482,6 +6481,7 @@
      }
     ]
    },
+   "audience": 200,
    "detail": true
   },
   {
@@ -6744,7 +6744,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962286",
    "half": "0:3",
    "referee": "Martin Ježík",
-   "audience": 200,
    "lineups": {
     "our": {
      "start": [
@@ -7063,6 +7062,7 @@
      }
     ]
    },
+   "audience": 200,
    "detail": true
   },
   {
@@ -7246,7 +7246,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962293",
    "half": "1:0",
    "referee": "Patrik Papuča",
-   "audience": 100,
    "lineups": {
     "our": {
      "start": [
@@ -7533,6 +7532,7 @@
      }
     ]
    },
+   "audience": 100,
    "detail": true
   },
   {
@@ -7598,7 +7598,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962303",
    "half": "1:0",
    "referee": "Juraj Puschenreiter",
-   "audience": 200,
    "lineups": {
     "our": {
      "start": [
@@ -7891,6 +7890,7 @@
      }
     ]
    },
+   "audience": 200,
    "detail": true
   },
   {
@@ -8235,7 +8235,6 @@
    "url": "https://sportnet.sme.sk/futbalnet/z/5/zapas/962308",
    "half": "1:0",
    "referee": "Branislav Mihálik",
-   "audience": 199,
    "lineups": {
     "our": {
      "start": [
@@ -8520,6 +8519,7 @@
      }
     ]
    },
+   "audience": 199,
    "detail": true
   },
   {
@@ -9891,12 +9891,12 @@
      "name": "MFK Stará Turá",
      "space": "mfk-stara-tura.futbalnet.sk",
      "our": false,
-     "played": 14,
+     "played": 15,
      "won": 4,
      "draw": 0,
-     "lost": 10,
-     "gf": 17,
-     "ga": 35,
+     "lost": 11,
+     "gf": 19,
+     "ga": 38,
      "pts": 12,
      "out": false
     },
@@ -9933,13 +9933,13 @@
      "name": "ŠK LR CRYSTAL",
      "space": "sk-lr-crystal.futbalnet.sk",
      "our": false,
-     "played": 14,
-     "won": 0,
+     "played": 15,
+     "won": 1,
      "draw": 4,
      "lost": 10,
-     "gf": 15,
-     "ga": 59,
-     "pts": 4,
+     "gf": 18,
+     "ga": 61,
+     "pts": 7,
      "out": false
     },
     {
@@ -10105,30 +10105,30 @@
     },
     {
      "pos": 11,
-     "name": "MFK Stará Turá",
-     "space": "mfk-stara-tura.futbalnet.sk",
+     "name": "ŠK LR CRYSTAL",
+     "space": "sk-lr-crystal.futbalnet.sk",
      "our": false,
-     "played": 14,
+     "played": 15,
      "won": 3,
      "draw": 2,
-     "lost": 9,
-     "gf": 15,
-     "ga": 49,
+     "lost": 10,
+     "gf": 14,
+     "ga": 56,
      "pts": 11,
      "out": false
     },
     {
      "pos": 12,
-     "name": "ŠK LR CRYSTAL",
-     "space": "sk-lr-crystal.futbalnet.sk",
+     "name": "MFK Stará Turá",
+     "space": "mfk-stara-tura.futbalnet.sk",
      "our": false,
-     "played": 14,
-     "won": 2,
+     "played": 15,
+     "won": 3,
      "draw": 2,
      "lost": 10,
-     "gf": 9,
-     "ga": 53,
-     "pts": 8,
+     "gf": 18,
+     "ga": 54,
+     "pts": 11,
      "out": false
     },
     {
